@@ -1,0 +1,83 @@
+body{
+    background-color: transparent;
+    background-image: url(planodefundo.png);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+
+.titulo{
+    font-family: "Secular One", sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+    text-align: center;  
+}
+
+.logGiProjects {
+  background-color: transparent;
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between ;
+  padding: 2% 0 0 4%;
+  margin-right: 50px;
+}
+
+#textoInicial {
+  resize: none;
+  width: 500px;
+  height: 350px;
+  font-size: 25px;
+  background: white;
+  line-height: 1.6;
+}
+
+#textoFinal {
+  resize: none;
+  width: 500px;
+  height: 350px;
+  font-size: 25px;
+  background: white;
+  line-height: 1.6;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Reddit Mono", monospace;
+  font-size: larger;
+  font-weight: 500;
+  font-style: larger;
+}
+
+.decodificaTexto {
+    border: #90d26d;
+    padding: 20px 37px;
+    background-color: #90D26D;
+    font-family: "Anton", sans-serif;
+    font-size: large;
+    font-weight: 400;
+    font-style: inherit;
+}
+
+.rodape {
+    position:sticky;
+    width: 100%;
+    text-align: center;
+    padding: none;
+}
+
+.rodape {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-small;
+}

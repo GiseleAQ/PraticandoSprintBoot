@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecodificadorDeTexto</title>
+    <link rel="stylesheet" type="text/css"  href="style.css" />
+    <link rel="shortcut icon" href="GiProjects02.png" type="image/x-icon">
+  </head>
+<body>
+  <main class="principal">
+    <header> 
+      <img src="GiProjects00.png" alt="logGiProjects" class="logGiProjects">
+    </header>
+    <h1 class="titulo">Decodificador Premiado</h1>
+      <div class="container">
+        <div class="textoInicial">
+          <label for="textoInicial">Insira aqui o texto (tema: FAZENDA):</label>
+          <textarea id="textoInicial" placeholder="Insira o texto conforme o tema com no máximo 500 caracteres." name="textoInicial" rows="10" cols="45" maxlength="300"></textarea>
+        </div>
+
+        <div class="button">
+          <button onclick="Decodificar()" class="decodificaTexto">Decodificador</button>
+        </div>
+  
+        <div class="textoDecodificado">
+          <label for="textoFinal">Texto Decodificado:</label>
+          <textarea id="textoFinal" placeholder="Cada vez que a palavra certa tiver sido digitada, será substituída pelo termo PRÊMIO." name="textoFinal" rows="10" cols="45"></textarea>
+        </div>
+      </div>
+      <div vw class="enabled"> <!--trecho de código do site ofical Vlibras (https://www.gov.br/governodigital/pt-br/vlibras/)-->
+          <div vw-access-button class="active"></div>
+          <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+          </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+          new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script> <!--a posição do widget na página pode ser alterada pelo próprio usuário acessando o botão configurações-->
+            
+  </main>
+
+<footer class="rodape">
+   <img src="GiProjects03.png" alt="logGiProjectsrodape" class="logGiProjectsrodape">
+   <h2 class="textoRodape">Desenvolvido por Gisele Arruda</h2>
+</footer> 
+<script src="./app.js"></script>
+</body>
+</html> 
